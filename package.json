@@ -6,9 +6,11 @@
     "dev": "next dev --webpack",
     "build": "next build --webpack",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "verify:scribe": "node scripts/verify-scribe.mjs"
   },
   "dependencies": {
+    "@elevenlabs/client": "^0.12.1",
     "next": "16.0.10",
     "react": "19.2.1",
     "react-dom": "19.2.1"
